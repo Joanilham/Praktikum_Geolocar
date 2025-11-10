@@ -12,5 +12,6 @@ Petunjuk:
 ![alt text](assets/images/1.png)
 5.  Panggil fungsi getAddressFromLatLng( currentPosition!) di dalam getLocation
 dan startTracking (di dalam .listen()) setelah setState untuk currentPosition.
-6. Tampilkan currentAddress di UI Anda, di bawah Lat/Lng.
+![alt text](assets/images/6.png)
+1. Tampilkan currentAddress di UI Anda, di bawah Lat/Lng.
 ![alt text](assets/images/5.jpg)
