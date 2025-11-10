@@ -14,4 +14,4 @@ Petunjuk:
 dan startTracking (di dalam .listen()) setelah setState untuk currentPosition.
 ![alt text](assets/images/6.png)
 1. Tampilkan currentAddress di UI Anda, di bawah Lat/Lng.
-![alt text](assets/images/5.jpg)
+![alt text](assets/images/7.jpg)
