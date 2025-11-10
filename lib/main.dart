@@ -30,7 +30,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   Position? _currentPosition;
   String? _errorMessage;
-  String? _currentAddress; // ✅ Menyimpan alamat hasil geocoding
+  String? _currentAddress;
   StreamSubscription<Position>? _positionStream;
 
   @override
