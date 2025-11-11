@@ -1,12 +1,11 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.geo_project">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Tambahkan izin di luar tag <application> -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
-        android:label="geo_project"
+        android:label="geolocator"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

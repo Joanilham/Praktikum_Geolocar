@@ -13,5 +13,15 @@ Petunjuk:
 5.  Panggil fungsi getAddressFromLatLng( currentPosition!) di dalam getLocation
 dan startTracking (di dalam .listen()) setelah setState untuk currentPosition.
 ![alt text](assets/images/6.png)
-1. Tampilkan currentAddress di UI Anda, di bawah Lat/Lng.
+6. Tampilkan currentAddress di UI Anda, di bawah Lat/Lng.
 ![alt text](assets/images/7.jpg)
+
+**Tugas 2**: Jarak Real-time ke Titik Tetap
+Manfaatkan fungsi Geolocator.distanceBetween dari Langkah 4.
+1. Buat variabel String? distanceToPNB; di MyHomePageState.
+2. Di dalam startTracking (di dalam .listen()), panggil fungsi untuk menghitung
+jarak:
+3. Simpan hasilnya di distanceToPNB menggunakan setState.
+4. Tampilkan distanceToPNB di UI agar jaraknya ter-update secara real-time saat
+Anda bergerak
+![alt text](assets/images/lokasi.jpg)
